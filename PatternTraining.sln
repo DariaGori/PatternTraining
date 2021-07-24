@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternIntro", "PatternIntro\PatternIntro.csproj", "{520828D3-0F73-4D59-AB0C-4ABDEDE570C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{4853BB58-AA04-4749-955F-4DF888E88750}"
+ProjectSection(SolutionItems) = preProject
+	.gitignore = .gitignore
+	README.md = README.md
+EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{520828D3-0F73-4D59-AB0C-4ABDEDE570C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{520828D3-0F73-4D59-AB0C-4ABDEDE570C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{520828D3-0F73-4D59-AB0C-4ABDEDE570C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{520828D3-0F73-4D59-AB0C-4ABDEDE570C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PatternIntro.Domain;
+using PatternIntro.Domain.Behavior.Flying;
 
 namespace PatternIntro
 {
@@ -6,7 +7,17 @@ namespace PatternIntro
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Duck mallard = new MallardDuck();
+            
+            mallard.PerformQuack();
+            mallard.PerformFly();
+            
+            Duck model = new ModelDuck();
+            
+            // Changing the class behavior at the runtime
+            model.PerformFly();
+            model.FlyingBehavior = new FlyRocketPowered();
+            model.PerformFly();
         }
     }
 }

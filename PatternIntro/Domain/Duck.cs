@@ -5,8 +5,8 @@ namespace PatternIntro.Domain
 {
     public abstract class Duck
     {
-        public IFlyingBehavior FlyingBehavior { get; set; }
-        public IQuackingBehavior QuackingBehavior { get; set; }
+        public IFlyingBehavior FlyingBehavior { get; set; } = default!;
+        public IQuackingBehavior QuackingBehavior { get; set; } = default!;
         
         public abstract void Display();
         

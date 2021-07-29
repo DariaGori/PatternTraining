@@ -2,8 +2,13 @@
 
 namespace StrategyPatternTask.Domain
 {
-    public class Character
+    public abstract class Character
     {
         public IWeaponBehavior WeaponBehavior { get; set; } = default!;
+
+        public void Fight()
+        {
+            WeaponBehavior.UseWeapon();
+        }
     }
 }

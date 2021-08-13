@@ -26,3 +26,9 @@ The **Observer Pattern** defines a one-to-many dependency between objects so tha
 ### Key terms and takeaways
 - The Observer Pattern provides an object design where subjects and observers are loosely coupled. When two objects are loosely coupled, they can interact, but have very little knowledge of each other.
 - Strive for loosely coupled designs between objects that interact
+
+## ObserverPatternInbuiltTools
+
+This project provides an implementation of the Weather Station example described in the **ObserverPattern** project utilizing the built-in capabilities of .NET.
+
+Reference materials for the Observer pattern inbuilt capabilities can be found here: https://docs.microsoft.com/en-us/dotnet/standard/events/observer-design-pattern.

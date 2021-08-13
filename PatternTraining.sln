@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPatternTask", "Stra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{F7FD7B19-B594-49CE-9663-728C6BC3C3EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPatternInbuiltTools", "ObserverPatternInbuiltTools\ObserverPatternInbuiltTools.csproj", "{FE26DCE2-AAB8-4B9A-8776-78F9BD880941}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{F7FD7B19-B594-49CE-9663-728C6BC3C3EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7FD7B19-B594-49CE-9663-728C6BC3C3EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7FD7B19-B594-49CE-9663-728C6BC3C3EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE26DCE2-AAB8-4B9A-8776-78F9BD880941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE26DCE2-AAB8-4B9A-8776-78F9BD880941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE26DCE2-AAB8-4B9A-8776-78F9BD880941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE26DCE2-AAB8-4B9A-8776-78F9BD880941}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
